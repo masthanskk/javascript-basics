@@ -1,0 +1,16 @@
+{
+    "name": "shami",
+    "Location": "Ongole",
+    "married": true,
+    "working days": 5,
+    "Skills": [
+        "html",
+        "css",
+        "javascript"
+    ],
+    "Company info": {
+        "comapany name": "SAP",
+        "Location": "Hyderabad,Gachibowli",
+        "Position": "Developer"
+    }
+}
