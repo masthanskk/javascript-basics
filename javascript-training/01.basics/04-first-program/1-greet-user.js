@@ -1,7 +1,7 @@
 console.log("Hello User");
 
-var firstName = "Adil";
-var lastName = "Khan";
+var firstName = "shami";
+var lastName = "shaik;
 
 console.log(`${firstName} ${lastName}`);
 
