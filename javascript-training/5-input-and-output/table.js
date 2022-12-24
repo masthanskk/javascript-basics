@@ -1,7 +1,7 @@
 const readline = require("readline-sync");
 console.log("Table_Generator"); // Heading 
 
-const tableNumber = readline.question("Enter number to generator table: ");
+const tableNumber = readline.question("Enter number to generator table: "); // Giving question
 
 console.log("**************************")
 console.log(`${tableNumber} x 1 = ${tableNumber*1}`);
