@@ -9,7 +9,7 @@ const c = true; // boolean
 console.log(a+b+c);
 
 
-/*  Two types of {} curly brackets 
+/*  Two types of {} curly brackets. 
  1. {} is called as curly brackets it contains key = "value".
  2. {} is called blocks.
 
@@ -34,18 +34,25 @@ myStatement();
 
 //() is called as parameters.
 
-function createUserDetails(userfirstName, userlastName, companyName,cityName){
-    const User = {
-        firstname:userfirstName,
-        lastname:userlastName,
-        company:companyName,
-        city:cityName
 
-    }
-        return User;
+   
 
        /* const salary = 10000;
         const hike = salary + 5000; // 15000  */
-}
-        const newUser = createUserDetails("Shami",'Shaik','Infosys','Hyderabad');
+
+function createUserDetails(userfirstName,userlastName,companyName,cityName){
+    const User = {
+        fisrtname:userfirstName,
+        lastname:userlastName,
+        company:companyName,
+        city:cityName
+    }
+            return User;
+
+             /* const salary = 10000;
+        const hike = salary + 5000; // 15000  */
+
+
+    }
+        const newUser = createUserDetails("shami","shaik","infosys","Ongole");
         console.log(newUser);

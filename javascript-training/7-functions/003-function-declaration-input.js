@@ -4,8 +4,8 @@
 
 import readline  from "readline-sync";
 
-const firstvalue = +readline.question("Please enter the vale of a: "); // string -> Number
-const secondvalue = Number (readline.question("Please enter the value of b : "));// string -> Number
+const firstvalue = +readline.question(`Please enter the value of a: `); // string -> Number
+const secondvalue = Number (readline.question(`Please enter the value of b : `));// string -> Number
 
 // Declaring a function.
 
@@ -29,4 +29,8 @@ function maths(valueone, valuetwo){
 
 }
  maths(firstvalue,secondvalue);
+ 
+
+
+
  
