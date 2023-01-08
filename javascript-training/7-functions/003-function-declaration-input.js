@@ -29,8 +29,3 @@ function maths(valueone, valuetwo){
 
 }
  maths(firstvalue,secondvalue);
- 
-
-
-
- 
