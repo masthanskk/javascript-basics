@@ -14,7 +14,17 @@ let output = 26 * 45 > 54 + 77;// this is retreated has a statement
 console.log("hey guys pls complete this assiginment");
 
 // function declaration
-function doWelcome(username) {
-    console.log(`welcome ${username}`);
+function doWelcome(username){
+    console.log(`Welcome to javaScript ${username}`);
+
 }
-doWelcome("shami");
+    doWelcome(`Shaik shami`);
+
+// function Expression
+ 
+ let square = function(Xvalue,Yvalue){
+    return Xvalue + Yvalue;
+ }
+
+let additionnumbers = square(45,77);
+console.log(additionnumbers);
