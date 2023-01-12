@@ -1,3 +1,5 @@
+// function declaration way
+
 function greetUser(username = `UNKNOWN`){
     console.log(`Welcome ${username}`);
 }
@@ -7,7 +9,7 @@ function greetUser(username = `UNKNOWN`){
  greetUser("sHAMI");
 
 
-
+// function expression way in Arrow function
 
  const welcomeuser = (username= `unknown user`) => {
     return `welcome to my page! ${username}`;
