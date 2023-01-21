@@ -71,7 +71,7 @@ function shoppingDetails(Amount) {
     const AmountwithDiscount = total - DISCOUNT_AMOUNT;
     return AmountwithDiscount;
   }
-  const Actualvaluebill = Getdiscountamount();
+   const Actualvaluebill = Getdiscountamount();
   return{
     amount:Amount,
     billAmount: Actualvaluebill,
