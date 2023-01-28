@@ -42,5 +42,31 @@ if (condition) {
 
   console.log(`Message value = ${message}`);
   console.log(`Another value = ${Anothermessage}`);
+ 
+  //////////////////////////////////////////////////////
+
+  const CLUB_PASSES = 8;
+  let message1 ='';
+
+  const RequiredPasses = readline.question(`No of passes ? `);
+
+  message1 = RequiredPasses <= CLUB_PASSES ? `Club passes are CONFIRMED` : `Club passes are not CONFIRMED`;
+
+  console.log(message1);
+
+
+  /////////////////////////////////////////////////
+
+  const HOTELROOMS_AVAILABLE = 3;
+  let Outcomes_message =``;
+
+  const AVAILABLE_ROOMS = readline.question(`No of rooms ? `);
+
+  const Condition = AVAILABLE_ROOMS <= HOTELROOMS_AVAILABLE;
+  const Truevalue = `Rooms are booked`;
+  const Flasevalue = `Rooms are not booked`;
+  const FinalResult = Condition ? Truevalue : Flasevalue;
+
+  console.log(`Confirmed rooms ${FinalResult}`);
 
     
