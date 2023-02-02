@@ -1,3 +1,6 @@
+ //In  JAVASCRIPT  falsey values is ( empty string ""  , 0 , undefined, null  ) this are falsy values.
+
+
 /* 
     Comparision  Operators (return boolean)
 
@@ -89,8 +92,38 @@ if(fooditems >= FOODMINI_BILL && fooditems <= FOODMAX_BILL ){
 
                              // OR
 
-   // OR Operator it only checks for single true                          
+   // OR Operator it only checks for single true.                          
    // 12  ||  8  -> 12 = (true value) In OR operator , when operation get true value in the first time it show true value. 
+ 
+   console.log(true && true && true);
+   console.log(false || true || true);
 
-   
+    console.log(45 < 35 || 100 !== 100);
+    console.log(false || false);
+    console.log(false || true)
+
+    console.log("Shaik" || "Shami");
+    console.log("" || "Shami");
+
+    console.log("Shaik" && "Shami" )
+    console.log("" && "Shami");
+
+
+      //  NOT
+
+      console.log(!true); // false
+      console.log(!false); // true
+
+      console.log(!74) // false
+      console.log(!0) // true
+      console.log(!"Shaik Shami") // false
+      console.log(!"") // true
+
+      console.log(!undefined); // true
+      console.log(!null) // true
+      console.log(!!undefined) // false
+
+      console.log(!!1) // true 
+
+
 

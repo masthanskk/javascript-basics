@@ -35,6 +35,7 @@ myStatement();
 //() is called as parameters.
 
 
+
    
 
        /* const salary = 10000;
@@ -56,3 +57,14 @@ function createUserDetails(userfirstName,userlastName,companyName,cityName){
     }
         const newUser = createUserDetails("shami","shaik","infosys","Ongole");
         console.log(newUser);
+
+
+
+
+
+
+
+
+
+
+        
