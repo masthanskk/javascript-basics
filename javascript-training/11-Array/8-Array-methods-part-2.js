@@ -92,3 +92,4 @@ console.log(last_students);     // [ 'Shaik', 'Shami', 'lohith', 'Mani' ]
 const Deleted_students = all_students.splice(2,1); // lohith   // ( .splice it works to delete selected values in array) 
 console.log(Deleted_students);
 console.log(all_students);     // [ 'Shaik', 'Shami', 'lohith', 'Mani' ]
+ 
