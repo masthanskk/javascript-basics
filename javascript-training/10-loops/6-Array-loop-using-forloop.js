@@ -15,3 +15,4 @@ const friends =[
  for(let index =0;index<Totalfriends;index =index+1){
         console.log(`current friend is ${friends[index]} is at index${index}`)
  }
+ 
