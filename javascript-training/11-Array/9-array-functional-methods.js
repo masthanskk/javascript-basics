@@ -7,10 +7,10 @@
 
 /*
 
- [].forEach;
- [].map;
- [].filter;
- [].reduce;
+ [].forEach;     =>  undefined
+ [].map;         =>  SAVE LENGTH OF ARRAY
+ [].filter;      =>  LESS OR EQUAL LENGTH OF ARRAY
+ [].reduce;      =>  SINGLE VALUE
  [].some;
  [].find;
 
@@ -77,6 +77,14 @@ const class_ = [ 24, 33, 55, 4, 77, 62 ];
  console.log(Odd_numbers);
  console.log(Even_numbers);
 
- const a_letter_user = ['Shami','varun','lohith','MAni','Ayay'];
- const letter_change = a_letter_user.filter(value => value[0] === 'S');
+ const user = ['Shami','varun','lohith','MAni','Ayay','Apsar'];
+
+ const letter_change = user.filter(value => value[0] === 'S');
  console.log(letter_change);
+
+ const r_letter_change = user.filter(value => value[0] === 'A')
+ console.log(r_letter_change);
+
+ // ................   Reduce    ................
+
+
